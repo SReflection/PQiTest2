@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="54a6da03-e842-4412-9941-2fab2dcf6e6b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1hVnXgKUNVh5JFcLFopeOvZwsJk" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.RunnerTest">
+    <configuration name="Feature: Division" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Division.feature" />
+      <option name="GLUE" value="com.physIQ.StepDef" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="PhysIQ" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: Division" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Division check with different numbers" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Division.feature" />
+      <option name="GLUE" value="com.physIQ.stepDef" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="PhysIQ" />
+      <option name="NAME_FILTER" value="^Division check with different numbers$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Division check with different numbers$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Division check with different numbers" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunnerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PhysIQ" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.physIQ.runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.physIQ.runners" />
+      <option name="MAIN_CLASS_NAME" value="com.physIQ.runners.RunnerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.RunnerTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="54a6da03-e842-4412-9941-2fab2dcf6e6b" name="Default Changelist" comment="" />
+      <created>1600105167658</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600105167658</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1237" y="485" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600105740372">
+      <screen x="-1920" y="136" width="1920" height="1080" />
+    </state>
+    <state x="-1237" y="485" key="#com.intellij.fileTypes.FileTypeChooser/-1920.136.1920.1080/0.0.1792.1120@-1920.136.1920.1080" timestamp="1600105740372" />
+    <state width="1878" height="290" key="GridCell.Tab.0.bottom" timestamp="1601413435943">
+      <screen x="-1920" y="-39" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="290" key="GridCell.Tab.0.bottom/-1920.-39.1920.1057/0.23.1792.1026@-1920.-39.1920.1057" timestamp="1601413435943" />
+    <state width="1878" height="305" key="GridCell.Tab.0.bottom/-1920.136.1920.1080/0.0.1792.1120@-1920.136.1920.1080" timestamp="1600125887204" />
+    <state width="1878" height="290" key="GridCell.Tab.0.center" timestamp="1601413435942">
+      <screen x="-1920" y="-39" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="290" key="GridCell.Tab.0.center/-1920.-39.1920.1057/0.23.1792.1026@-1920.-39.1920.1057" timestamp="1601413435942" />
+    <state width="1878" height="305" key="GridCell.Tab.0.center/-1920.136.1920.1080/0.0.1792.1120@-1920.136.1920.1080" timestamp="1600125887202" />
+    <state width="1878" height="290" key="GridCell.Tab.0.left" timestamp="1601413435941">
+      <screen x="-1920" y="-39" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="290" key="GridCell.Tab.0.left/-1920.-39.1920.1057/0.23.1792.1026@-1920.-39.1920.1057" timestamp="1601413435941" />
+    <state width="1878" height="305" key="GridCell.Tab.0.left/-1920.136.1920.1080/0.0.1792.1120@-1920.136.1920.1080" timestamp="1600125887199" />
+    <state width="1878" height="290" key="GridCell.Tab.0.right" timestamp="1601413435942">
+      <screen x="-1920" y="-39" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="290" key="GridCell.Tab.0.right/-1920.-39.1920.1057/0.23.1792.1026@-1920.-39.1920.1057" timestamp="1601413435942" />
+    <state width="1878" height="305" key="GridCell.Tab.0.right/-1920.136.1920.1080/0.0.1792.1120@-1920.136.1920.1080" timestamp="1600125887203" />
+  </component>
+</project>

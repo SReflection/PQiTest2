@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="18" time="62.786">
+    <testcase classname="Division check scenarios" name="Division check with different numbers" time="20.84">
+        <system-out>
+            <![CDATA[When user enter "23" and user enter "23"....................................passed
+Then user press divide button...............................................passed
+And user validate the expect "1.0" matches output on the UI.................passed
+And user press clear button.................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Division check scenarios" name="Division check with different numbers 2" time="2.922">
+        <system-out>
+            <![CDATA[When user enter "2" and user enter "1"......................................passed
+Then user press divide button...............................................passed
+And user validate the expect "2.0" matches output on the UI.................passed
+And user press clear button.................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Division check scenarios" name="Division check with different numbers 3" time="2.829">
+        <system-out>
+            <![CDATA[When user enter "-1" and user enter "2".....................................passed
+Then user press divide button...............................................passed
+And user validate the expect "-0.5" matches output on the UI................passed
+And user press clear button.................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Division check scenarios" name="Division check with different numbers 4" time="2.689">
+        <system-out>
+            <![CDATA[When user enter "-1" and user enter "-2"....................................passed
+Then user press divide button...............................................passed
+And user validate the expect "0.5" matches output on the UI.................passed
+And user press clear button.................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Division check scenarios" name="Division check with different numbers 5" time="3.644">
+        <system-out>
+            <![CDATA[When user enter "1111" and user enter "222222222"...........................passed
+Then user press divide button...............................................passed
+And user validate the expect "4.9995000049995E-6" matches output on the UI..passed
+And user press clear button.................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Division check scenarios" name="Division check with different numbers 6" time="3.171">
+        <system-out>
+            <![CDATA[When user enter "1.6" and user enter "2"....................................passed
+Then user press divide button...............................................passed
+And user validate the expect "0.8" matches output on the UI.................passed
+And user press clear button.................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Division check scenarios" name="Division check with different numbers 7" time="3.169">
+        <system-out>
+            <![CDATA[When user enter "1" and user enter "2.2"....................................passed
+Then user press divide button...............................................passed
+And user validate the expect "0.45454545454545453" matches output on the UI.passed
+And user press clear button.................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Division check scenarios" name="Division check with different numbers 8" time="3.161">
+        <system-out>
+            <![CDATA[When user enter "0" and user enter "2"......................................passed
+Then user press divide button...............................................passed
+And user validate the expect "0.0" matches output on the UI.................passed
+And user press clear button.................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Division check scenarios" name="Division check with different numbers 9" time="3.335">
+        <system-out>
+            <![CDATA[When user enter "0" and user enter "-2".....................................passed
+Then user press divide button...............................................passed
+And user validate the expect "-0.0" matches output on the UI................passed
+And user press clear button.................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Division check scenarios" name="Division check with different numbers 10" time="2.765">
+        <system-out>
+            <![CDATA[When user enter "0" and user enter "0"......................................passed
+Then user press divide button...............................................passed
+And user validate the expect "NaN" matches output on the UI.................passed
+And user press clear button.................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Division check scenarios" name="Division check with different numbers 11" time="3.665">
+        <system-out>
+            <![CDATA[When user enter "2" and user enter "0"......................................passed
+Then user press divide button...............................................passed
+And user validate the expect "Infinity" matches output on the UI............passed
+And user press clear button.................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Division check scenarios" name="Division check with different numbers 12" time="3.138">
+        <system-out>
+            <![CDATA[When user enter "-1" and user enter "0".....................................passed
+Then user press divide button...............................................passed
+And user validate the expect "-Infinity" matches output on the UI...........passed
+And user press clear button.................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Division check scenarios" name="Division check with different numbers 13" time="3.237">
+        <failure message="expected:&lt;[-]Infinity&gt; but was:&lt;[]Infinity&gt;" type="org.junit.ComparisonFailure">
+            <![CDATA[When user enter "1" and user enter "-0".....................................passed
+Then user press divide button...............................................passed
+And user validate the expect "Infinity" matches output on the UI............failed
+And user press clear button.................................................skipped
+
+StackTrace:
+org.junit.ComparisonFailure: expected:<[-]Infinity> but was:<[]Infinity>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at com.physIQ.stepDef.StepDefinitions.user_validate_the_expect_matches_output_on_the_ui(StepDefinitions.java:41)
+	at ✽.user validate the expect "Infinity" matches output on the UI(file:///Users/aibek/Downloads/PhysIQ/src/test/resources/Division.feature:7)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Division check scenarios" name="Checking Visibility and Availibility of interaction of all button" time="1.357">
+        <system-out>
+            <![CDATA[Given user sees "numerator".................................................passed
+And user avaliable to interact with button "numerator"......................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Division check scenarios" name="Checking Visibility and Availibility of interaction of all button 2" time="1.918">
+        <system-out>
+            <![CDATA[Given user sees "devisor"...................................................passed
+And user avaliable to interact with button "devisor"........................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Division check scenarios" name="Checking Visibility and Availibility of interaction of all button 3" time="0.101">
+        <system-out>
+            <![CDATA[Given user sees "result"....................................................passed
+And user avaliable to interact with button "result".........................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Division check scenarios" name="Checking Visibility and Availibility of interaction of all button 4" time="0.173">
+        <system-out>
+            <![CDATA[Given user sees "buttonDivide"..............................................passed
+And user avaliable to interact with button "buttonDivide"...................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Division check scenarios" name="Checking Visibility and Availibility of interaction of all button 5" time="0.16">
+        <system-out>
+            <![CDATA[Given user sees "buttonClear"...............................................passed
+And user avaliable to interact with button "buttonClear"....................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
